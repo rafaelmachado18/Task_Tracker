@@ -36,8 +36,7 @@ Clone the repo and compile the source:
 g++ tasker.cpp -o tasker
 ./tasker
 
-./tasker
-> add "Buy milk"
+tasker> add "Buy milk"
 Task added successfully (ID: 0)
 
 tasker> list

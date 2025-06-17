@@ -20,6 +20,18 @@ Make sure you have a C++ compiler installed (e.g., `g++`).
 
 Clone the repo and compile the source:
 
+| Command               | Description                         | Example                |
+| --------------------- | ----------------------------------- | ---------------------- |
+| `add "title"`         | Add a new task with the given title | `add "Go to the gym"`  |
+| `list`                | List all tasks                      | `list`                 |
+| `list todo`           | List only incomplete tasks          | `list todo`            |
+| `list done`           | List only completed tasks           | `list done`            |
+| `update ID "new"`     | Update the title of a task          | `update 1 "Pay bills"` |
+| `delete ID`           | Delete a task by its ID             | `delete 2`             |
+| `mark-done ID`        | Mark a task as completed            | `mark-done 0`          |
+| `mark-in-progress ID` | Mark a task as not completed        | `mark-in-progress 0`   |
+
+
 ```bash
 g++ tasker.cpp -o tasker
 ./tasker
@@ -38,3 +50,4 @@ Task marked as DONE (ID: 0)
 
 tasker> list done
 (0) Buy milk
+ 

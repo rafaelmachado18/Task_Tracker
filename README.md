@@ -28,13 +28,13 @@ g++ tasker.cpp -o tasker
 > add "Buy milk"
 Task added successfully (ID: 0)
 
-> list
+tasker> list
 (0) Buy milk -> [NO]
     Created at:     Tue, 18 Jun 2025 - 14:12:30
     Updated at:     Tue, 18 Jun 2025 - 14:12:30
 
-> mark-done 0
+tasker> mark-done 0
 Task marked as DONE (ID: 0)
 
-> list done
+tasker> list done
 (0) Buy milk
